@@ -16,6 +16,8 @@
             <a href="search-form">Search form</a>
             <br>
             <a href="players-info">All players</a>
+            <br>
+            <a href="club/add_club_form">Add club form</a>
         <br />
 
         Players name is :

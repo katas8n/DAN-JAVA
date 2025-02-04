@@ -19,3 +19,11 @@ a {
 .logo {
     width: 32px;
 }
+
+.fron-error {
+    color: red;
+}
+
+.disabled {
+    display: none;
+}

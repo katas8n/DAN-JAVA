@@ -1,14 +1,19 @@
 package com.example.footballPlayersMVC.model;
 
+import org.springframework.stereotype.Component;
+
 import java.util.Date;
 
+@Component
 public class FootballPlayer {
     private int id;
     private String name;
     private String club;
     private Date birthDate;
-
     private String nationality;
+
+    public FootballPlayer() {
+    }
 
     public FootballPlayer(int id, String name, String club, Date birthDate) {
         this.id = id;
@@ -45,7 +50,9 @@ public class FootballPlayer {
         return birthDate;
     }
 
-
+    public void setBirthDate(Date birthDate) {
+        this.birthDate = birthDate;
+    }
 
     public String getNationality() {
         return nationality;
